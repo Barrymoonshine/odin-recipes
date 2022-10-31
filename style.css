@@ -3,3 +3,30 @@ body {
     background-repeat: repeat-y;
     background-position: center ;
 }
+
+.heading-one,
+.heading-two,
+.heading-three {
+    text-align: center;
+}
+
+.heading-one {
+    color: rgb(0, 116, 0) ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: bold;
+    font-size: 70px ;
+}
+
+.heading-two {
+    color: rgba(255, 253, 253, 0.925) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-style: italic ;
+    font-size: 60px ;
+}
+
+.heading-three {
+    color: rgba(241, 2, 2, 0.925) ;
+    font-family: cursive ;
+    font-style:inherit ;
+    font-size: 50px ;
+}
