@@ -2,6 +2,8 @@ body {
     background-image: url("recipes/images/background.jpg");
     background-repeat: repeat-y;
     background-position: center ;
+    background-color: brown;
+    background-blend-mode: hard-light;
 }
 
 .flag {
@@ -9,13 +11,16 @@ body {
     height:40px ;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    border: 10px solid rgba(165, 42, 42, 0.726);
+    padding: 10px;
 }
 
 
 .heading-one,
 .heading-two,
-.heading-three {
+.heading-three,
+.quote {
     text-align: center;
 }
 
@@ -23,20 +28,35 @@ body {
     color: rgb(0, 116, 0) ;
     font-family: 'Times New Roman', Times, serif ;
     font-weight: bold;
-    font-size: 70px ;
+    font-size: 60px ;
     position:relative;
 }
 
 .heading-two {
     color: rgba(255, 253, 253, 0.925) ;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bold;
     font-style: italic ;
-    font-size: 60px ;
+    font-size: 50px ;
 }
 
 .heading-three {
     color: rgba(241, 2, 2, 0.925) ;
     font-family: cursive ;
     font-style:inherit ;
-    font-size: 50px ;
+    font-size: 40px ;
+}
+
+.quote {
+    color:black;
+    font-style: italic
+}
+
+.luigi {
+    width: 70px;
+    height 140px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
 }
